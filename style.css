@@ -1,0 +1,39 @@
+html {
+    font-family:'Times New Roman', Times, serif;
+}
+
+form {
+    border: 1px solid #A9333A;
+    max-width: 400px;
+    padding: 1.0rem;
+    border-radius: 5px;
+}
+
+input{
+    border:none;
+    border-bottom: 2px solid #A9333A;
+
+}
+
+.input:focus{
+    outline-style: none;
+    border-bottom: 2px solid #A9333A;
+}
+
+.div-input{
+    margin-bottom: 10px;
+}
+
+
+button {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10%;
+    border: 2px solid #090910;
+    background-color: #090910;
+    color: #FFF3E4;
+}
+
+button:hover{
+    cursor: pointer;
+}
